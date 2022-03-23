@@ -1,6 +1,6 @@
 # Actividad dirigida 2
 
-````
+```
 
 from bs4 import BeautifulSoup
 import requests
@@ -30,3 +30,5 @@ if(respuesta == 's'):
 
 else:z
   print('Qué lástima, y...')
+  
+```
