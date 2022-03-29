@@ -1,12 +1,14 @@
 # Actividad dirigida 2
-En este apartado de la actividad dirigida 2 ponemos el **código en bruto completo** para explocar lo que hemos realizado en la otra actividad
+En este apartado de la actividad dirigida 2 ponemos el **código en bruto completo** para explicar lo que hemos realizado en la otra actividad
 
 # Librerías 
+Este es el primer paso, importamos la **librería requests** para indentificar el sitio web con el que haremos el scraping. Además, importamos la **lebrería BeautifulSoup** para analizar los datos obtenidos en formato HTML o XML. 
 
+# Variables
+El siguiente paso es definir las variables, definimos la URL de donde queremos sacar los datos ("https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/") y es la misma URL donde haremos la peticion `request.get` para obtener los datos.
 
 
 ```
-
 from bs4 import BeautifulSoup
 import requests
 #Datos sobre los Juegos Olímpicos en 2020
