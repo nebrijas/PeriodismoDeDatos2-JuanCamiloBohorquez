@@ -8,7 +8,12 @@ Este es el primer paso, importamos la **librería requests** para indentificar e
 El siguiente paso es definir las variables, definimos la URL de donde queremos sacar los datos ("https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/") y es la misma URL donde haremos la peticion `request.get` para obtener los datos. Damos la instrucción de que si el status code es distino **if (req.status_code != 200)** no se puede hacer web scraping y si **req.status_code == 200** el código imprimirá "Vamos a por ello".
 
 # Datos
-Las variables escogidas son **países, oros, platas, bronces y medallas totales**
+Las variables escogidas son **países, oros, platas, bronces y medallas totales**, para indentificarlas debemos poner la función find_all() para que las busque en el sitio escogido y las seleccione. Se va a repetir la instrucción 20 veces (**for ifor i in range (20)**), esto quiere decir, que es un bucle. El código imprimirá los números con %d y el texto con %s.
+
+# Pregunta
+
+
+
 ```
 from bs4 import BeautifulSoup
 import requests
