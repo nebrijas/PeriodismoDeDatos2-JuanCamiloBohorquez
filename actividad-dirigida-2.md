@@ -5,9 +5,10 @@ En este apartado de la actividad dirigida 2 ponemos el **código en bruto comple
 Este es el primer paso, importamos la **librería requests** para indentificar el sitio web con el que haremos el scraping. Además, importamos la **lebrería BeautifulSoup** para analizar los datos obtenidos en formato HTML o XML. 
 
 # Variables
-El siguiente paso es definir las variables, definimos la URL de donde queremos sacar los datos ("https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/") y es la misma URL donde haremos la peticion `request.get` para obtener los datos.
+El siguiente paso es definir las variables, definimos la URL de donde queremos sacar los datos ("https://resultados.elpais.com/deportivos/juegos-olimpicos/medallero/") y es la misma URL donde haremos la peticion `request.get` para obtener los datos. Damos la instrucción de que si el status code es distino **if (req.status_code != 200)** no se puede hacer web scraping y si **req.status_code == 200** el código imprimirá "Vamos a por ello".
 
-
+# Datos
+Las variables escogidas son **países, oros, platas, bronces y medallas totales**
 ```
 from bs4 import BeautifulSoup
 import requests
