@@ -1,4 +1,9 @@
 # Actividad dirigida 2
+En este apartado de la actividad dirigida 2 ponemos el **código en bruto completo** para explocar lo que hemos realizado en la otra actividad
+
+# Librerías 
+
+
 
 ```
 
