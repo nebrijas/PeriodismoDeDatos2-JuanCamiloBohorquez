@@ -1,5 +1,5 @@
 # Actividad dirigida 2
-En este apartado de la actividad dirigida 2 ponemos el **código en bruto completo** para explicar lo que hemos realizado en la otra actividad denominada [scraping.ipynb](https://github.com/nebrijas/Periodismodedatos_juancamilobohorquez/blob/main/scraping.ipynb).
+En este apartado de la actividad dirigida 2 ponemos el **código en bruto completo** para explicar lo que hemos realizado en la otra actividad llamada [scraping.ipynb](https://github.com/nebrijas/Periodismodedatos_juancamilobohorquez/blob/main/scraping.ipynb).
 
 # Librerías 
 Este es el primer paso, importamos la **librería requests** para identificar el sitio web con el que haremos el scraping. Además, importamos la **lebrería BeautifulSoup** para analizar los datos obtenidos en formato HTML o XML. 
