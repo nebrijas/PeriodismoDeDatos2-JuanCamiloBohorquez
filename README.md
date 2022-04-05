@@ -6,3 +6,4 @@ Bienvenido al repositorio de la asignatura Periodismo de Datos II del máster en
 - [ad2](https://nebrijas.github.io/Periodismodedatos_juancamilobohorquez/ad2.html)
 - [api Covid19](https://nebrijas.github.io/Periodismodedatos_juancamilobohorquez/api-covid19-pandas-plot.html)
 - [scraping](https://nebrijas.github.io/Periodismodedatos_juancamilobohorquez/scraping.html)
+- [api Covid19 folium](https://nebrijas.github.io/Periodismodedatos_juancamilobohorquez/api-pandas-folium.html)
